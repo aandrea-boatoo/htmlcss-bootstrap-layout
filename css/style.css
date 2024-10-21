@@ -1,0 +1,17 @@
+header div{
+    text-align: center;
+    margin: 60px 0;
+}
+
+div[class^="row"] { 
+    margin: 30px;
+}
+
+div[class^="col"] {
+    padding: 15px;
+    color: white;
+}
+
+div[class*=light] {
+    color: black;
+}
